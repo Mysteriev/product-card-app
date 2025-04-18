@@ -1,0 +1,6 @@
+.listContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid */
+  gap: 15px; /* Spacing between cards */
+  padding: 20px;
+}

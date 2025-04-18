@@ -1,0 +1,35 @@
+.filterContainer {
+  padding: 15px 20px;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  gap: 10px;
+}
+
+.filterContainer button {
+  padding: 8px 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+.filterContainer button:hover:not(:disabled) {
+  background-color: #e9e9e9;
+}
+
+.filterContainer button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.filterContainer button.active {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+  font-weight: bold;
+}
+
+
+

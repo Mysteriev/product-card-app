@@ -1,0 +1,86 @@
+.container {
+  padding: 20px;
+  max-width: 900px;
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.backButton {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 8px 15px;
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+
+.backButton:hover {
+  background-color: #5a6268;
+}
+
+.title {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (min-width: 600px) {
+  .content {
+    flex-direction: row;
+  }
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: contain; /* Show whole image */
+  border-radius: 4px;
+  border: 1px solid #eee;
+  align-self: flex-start; /* Align image to top in flex column */
+}
+
+@media (min-width: 600px) {
+  .image {
+    max-width: 300px; /* Limit width on larger screens */
+    flex-shrink: 0; /* Prevent image from shrinking */
+  }
+}
+
+
+.details {
+  flex-grow: 1;
+}
+
+.description {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.price {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.details p {
+    margin-bottom: 8px;
+}
+
+.details em {
+    color: #555;
+    font-size: 0.9em;
+}
