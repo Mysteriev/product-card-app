@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Mysteriev/product-card-app/static/css/main.b4d16dec.css",
-    "main.js": "/Mysteriev/product-card-app/static/js/main.40d9744c.js",
-    "static/js/453.8840ddcb.chunk.js": "/Mysteriev/product-card-app/static/js/453.8840ddcb.chunk.js",
-    "index.html": "/Mysteriev/product-card-app/index.html",
-    "main.b4d16dec.css.map": "/Mysteriev/product-card-app/static/css/main.b4d16dec.css.map",
-    "main.40d9744c.js.map": "/Mysteriev/product-card-app/static/js/main.40d9744c.js.map",
-    "453.8840ddcb.chunk.js.map": "/Mysteriev/product-card-app/static/js/453.8840ddcb.chunk.js.map"
+    "main.css": "/product-card-app/static/css/main.b4d16dec.css",
+    "main.js": "/product-card-app/static/js/main.1f28d93a.js",
+    "static/js/453.8840ddcb.chunk.js": "/product-card-app/static/js/453.8840ddcb.chunk.js",
+    "index.html": "/product-card-app/index.html",
+    "main.b4d16dec.css.map": "/product-card-app/static/css/main.b4d16dec.css.map",
+    "main.1f28d93a.js.map": "/product-card-app/static/js/main.1f28d93a.js.map",
+    "453.8840ddcb.chunk.js.map": "/product-card-app/static/js/453.8840ddcb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b4d16dec.css",
-    "static/js/main.40d9744c.js"
+    "static/js/main.1f28d93a.js"
   ]
 }
